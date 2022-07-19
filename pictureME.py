@@ -22,7 +22,7 @@ def Last():
 def Next():
     global N
     N += 1
-    if N > 3:
+    if N > 9994675564:
         N = 1
     img_New = Image.open(str(N)+'.jpg')
     img_New = ImageTk.PhotoImage(img_New)
